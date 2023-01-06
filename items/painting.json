@@ -1,0 +1,44 @@
+{
+    "name": "painting",
+
+    "room_description": false,
+
+    "starting_loc": "master bedroom",
+
+    "current_loc": "master bedroom",
+
+    "look_description": "The closer you get to the painting, the more you hate it. You think it looks like a child's art project. You are pretty sure that the painting is of a piano, but you aren't even sure any more; the painting is that unskilled. You certainly hope that whoever owns this painting didn't pay for it and just got it for free. But even then, you think that free is too high of a price to pay for this -painting-. Someone should do the owner a favor and just take the painting down.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The canvas feels bumpy under your fingers, but the paint feels smooth.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like dust and varnish.",
+                
+                "flag": []
+            },
+            "remove": {
+
+                "text": "As you take the painting off of the wall, you turn around to find a... safe? It appears that whoever owns this house tried to hide their safe by covering it with a painting. If only the painting was less offensive to the eyes, maybe the safe would've been hidden for longer. You look closer at the safe, seeing that it is a lock that takes in a combination of 4 characters. You wonder what is inside...",
+                
+                "flag": ["player.update_painting_status(1)"]
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,39 @@
+{
+    "name": "cartridge slot",
+
+    "room_description": false,
+
+    "starting_loc": "music room",
+
+    "current_loc": "music room",
+
+    "look_description": "If you place a player piano cartridge in this slot, the piano will play the song.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": ["piano cartridge"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "It looks like nothing will happen here unless you find something to put in this slot.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells dusty.",
+                
+                "flag": []
+            }                
+        }
+    ]
+
+}

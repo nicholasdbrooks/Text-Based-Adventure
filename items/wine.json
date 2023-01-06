@@ -1,0 +1,39 @@
+{
+    "name": "wine",
+
+    "room_description": false,
+
+    "starting_loc": "storage room",
+
+    "current_loc": "storage room",
+
+    "look_description": "This is a cracked and empty bottle of wine. The label reads, -Chateau Latour, Puillac, France. 1902.-",
+
+    "synonyms":["bottle"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The bottle feels smooth and dusty",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells fruity and rotten.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

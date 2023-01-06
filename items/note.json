@@ -1,0 +1,44 @@
+{
+    "name": "note",
+
+    "room_description": "There is a note on the floor here.",
+
+    "starting_loc": "library",
+
+    "current_loc": "library",
+
+    "look_description": "August 15, 1903\n\nDear Samuel,\n\nThat fight over dinner was horrible. I hope your wife is aware that her behavior as a host was appalling and ungracious. I've said it before and I'll say it again -- she knows. I think even my John is beginning to wonder. Our relationship has cooled significantly and sometimes I am frightened at the thought of a future in a loveless marriage. Things should not be this way.\n\nOur weekly dinner gatherings are not enough. I am counting the hours until she is visiting her sister again. I miss you with every piece of my soul.\n\nDon't you want me to be happy?\n\nSincerely yours,\n\nMartha",
+
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The letters feel stiff and old.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "The perfume smells like roses, a delightful break from the house's usual musty aroma.",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "August 15, 1903\n\nDear Samuel,\n\nThat fight over dinner was horrible. I hope your wife is aware that her behavior as a host was appalling and ungracious. I've said it before and I'll say it again -- she knows. I think even my John is beginning to wonder. Our relationship has cooled significantly and sometimes I am frightened at the thought of a future in a loveless marriage. Things should not be this way.\n\nOur weekly dinner gatherings are not enough. I am counting the hours until she is visiting her sister again. I miss you with every piece of my soul.\n\nDon't you want me to be happy?\n\nSincerely yours,\n\nMartha",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,63 @@
+{
+    "name": "invoice",
+
+    "room_description": "There is an invoice located on the desk here.",
+
+    "starting_loc": "office",
+
+    "current_loc": "office",
+
+    "look_description": "This appears to be an invoice for medical services from a physician named Dr. Franklin Peters. The invoice contains charges for a prescription for a drug called Thalium. You notice there are a lot of entries for this drug and the prescribed dosage appears to be increasing over time.",
+
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "read": {
+
+                "text": "This appears to be an invoice for medical services from a physician named Dr. Franklin Peters. The invoice contains charges for a prescription for a drug called Thalium. You notice there are a lot of entries for this drug and the prescribed dosage appears to be increasing over time.",
+                
+                "flag": []
+            },
+            "touch": {
+
+                "text": "The paper is old and thin.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like ink.",
+                
+                "flag": []
+            },
+            "crumple": {
+
+                "text": "You crumple up the invoice and throw it on the floor. You stomp on it for good measure. You pause for a moment before deciding that the invoice might be important. You pick it back up and flatten it out again.",
+                
+                "flag": []
+            },
+            "throw away": {
+
+                "text": "You crumple up the invoice and throw it on the floor. You stomp on it for good measure. You pause for a moment before deciding that the invoice might be important. You pick it back up and flatten it out again.",
+                
+                "flag": []
+            },
+            "destroy": {
+
+                "text": "You crumple up the invoice and throw it on the floor. You stomp on it for good measure. You pause for a moment before deciding that the invoice might be important. You pick it back up and flatten it out again.",
+                
+                "flag": []
+            }          
+        }
+    ]
+
+}

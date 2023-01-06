@@ -1,0 +1,51 @@
+{
+    "name": "knife block",
+
+    "room_description": false,
+
+    "starting_loc": "kitchen",
+
+    "current_loc": "kitchen",
+
+    "look_description": "A fairly large hardwood knife block sits on the counter. The handles of various cooking knives protrude from the top. There are some empty slots which might suggest some of the knives are missing, which sends a shiver down your spine. But it's more likely that the owner simply did not purchase a complete set. Yeah, that's probably it.",
+
+    "synonyms":["block"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The knifeblock is made of wood and all of the handles are covered in dust. You wipe your hands on your pants.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like wood.",
+                
+                "flag": []
+            },
+            "take knife": {
+
+                "text": "You pull a knife out of the knifeblock. It's very sharp. Feeling nervous, you put it back in the knifeblock for safe keeping.",
+                
+                "flag": []
+            },
+            "use knife": {
+
+                "text": "Better to not mess with knives this sharp. You leave the knives safely in the block.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

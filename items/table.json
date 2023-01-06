@@ -1,0 +1,63 @@
+{
+    "name": "table",
+
+    "room_description": false,
+
+    "starting_loc": "dining room",
+
+    "current_loc": "dining room",
+
+    "look_description": "The large mahogany table looks like it would seat a very large dinner party. The legs contain intricate scroll work, which suggests that the owner spared no expense when purchasing this table. This is a piece of furniture that was designed to impress.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The table is dusty.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The tale smells like wood and dust.",
+                
+                "flag": []
+            },
+            "climb on": {
+
+                "text": "You climb on top of the table. You have a great view of the room from up here. The ceiling is still too high to touch, and it's mostly obscured by shadows anyway. After nearly crushing a china plate with your foot, you decide to get off the table.",
+                
+                "flag": []
+            },
+            "stand on": {
+
+                "text": "You climb on top of the table. You have a great view of the room from up here. The ceiling is still too high to touch, and it's mostly obscured by shadows anyway. After nearly crushing a china plate with your foot, you decide to get off the table.",
+                
+                "flag": []
+            },
+            "sit": {
+
+                "text": "You take a seat at one of the chairs and pretend this dinner party was for you. Thankfully for you it wasn't...was it?",
+                
+                "flag": []
+            },
+            "move": {
+
+                "text": "You try to push the table into a different position, but find that it's too heavy and seems to be stuck in place.",
+                
+                "flag": []
+            }           
+        }
+    ]
+
+}

@@ -1,0 +1,39 @@
+{
+    "name": "typewriter",
+
+    "room_description": false,
+
+    "starting_loc": "office",
+
+    "current_loc": "office",
+
+    "look_description": "A large steel typewriter sits on top of the desk. Boy, this thing looks heavy!",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The metal of the typewriter is cool and the keys feel satisfying under your fingers. You push one key down with a satisfying plunk.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The typewriter smells metallic.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

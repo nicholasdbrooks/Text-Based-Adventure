@@ -1,0 +1,17 @@
+{
+    "name": "guest bedroom",
+
+    "long_desc": "You enter into a small bedroom. It seems like no one has been here for ages; the pillow sits on a folded set of sheets on the end of the bed as if a guest was expected. But the only person here is you so, who knows how long these have been here? Unless... they were expecting you! You contemplate that possibility for a moment before deciding that train of thought is too scary to continue following. You have enough problems to worry about anyway. To the west is a door taking you back to the hallway from your room... I mean, THE GUEST ROOM!",
+    
+    "short_desc": "You enter your room. Your room? No! It's the guest room, and they certainly weren't expecting you. Right? The pillows and sheets remain on the edge of your bed. No, the guest bed! Maybe you should go back to the hallway to the west to avoid confusing yourself anymore.",
+
+    "init_items" : ["pillow", "sheets", "large bed"],
+
+    "current_items" : ["pillow", "sheets", "large bed"],
+
+    "exits" : [
+      {
+        "west": ["hallway"]
+      }
+    ]
+}

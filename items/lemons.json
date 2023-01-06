@@ -1,0 +1,51 @@
+{
+    "name": "lemons",
+
+    "room_description": false,
+
+    "starting_loc": "kitchen",
+
+    "current_loc": "kitchen",
+
+    "look_description": "Ah... these are wax lemons! So they are purely decorative.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The lemons feel kind of gross and waxy.",
+                
+                "flag": []
+            },
+            "eat": {
+
+                "text": "You unhesitatingly pick up one of the lemons and take an enormous bite out of it. You gag on a mouthful of wax and drop the lemon back in the bowl.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like wax.",
+                
+                "flag": []
+            },
+            "throw": {
+
+                "text": "You throw the lemon at the kitchen window, hoping to shatter it. Instead it bounces harmlessly off and rolls back to your feet. Feelig kind of silly, you put the lemon back in the bowl.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

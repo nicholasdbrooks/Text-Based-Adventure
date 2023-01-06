@@ -1,0 +1,9 @@
+{
+  "puzzle_num": 5,
+  "puzzle_location": "backyard",
+  "key_item": ["shed", "tool shed", "toolshed"],
+  "key_command": ["unlock"],
+  "key_item2": ["keys", "key", "key ring", "keyring"],
+  "solved_description": "You try to unlock the shed with the keyring. After a few failed attempts, you finally get to a key that fits into the lock. You turn, and the lock opens, falling to the ground. You open up a tool shed and see a shovel. You have a feeling what you have to do.",
+  "item_given": "shovel"
+}

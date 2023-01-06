@@ -1,0 +1,45 @@
+{
+    "name": "boxes",
+
+    "room_description": false,
+
+    "starting_loc": "attic",
+
+    "current_loc": "attic",
+
+    "look_description": "There are boxes everywhere, but one set of boxes in particular catches your eye. They have less dust on them than the others, like someone was recently moving them. You open of these boxes and notice that thye are completely filled with empty, discarded bottles. You examine the bottles more closely. The labels on them all read THALLIUM SULFATE. Whatever that is.",
+
+    "synonyms":["box"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The boxes don't seem as dusty as everything else in the house...",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells musty.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "Inside the box is a set of perforated metallic rolls. It takes you a moment, but you finally recognize the perforations as notes. This is a piano cartridge! It’s dusty, but you think it might still work.",
+                
+                "flag": []
+            }
+        } 
+    ]
+
+}

@@ -1,0 +1,39 @@
+{
+    "name": "toilet",
+
+    "room_description": false,
+
+    "starting_loc": "bathroom",
+
+    "current_loc": "bathroom",
+
+    "look_description": "An ordinary white toilet. You give it a flush, but the water appears to have been turned off long ago.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "Against your better judgement, you touch the toilet. It feels surprisingly clean.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells musty.",
+                
+                "flag": []
+            }        
+        }
+    ]
+
+}

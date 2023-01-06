@@ -1,0 +1,75 @@
+{
+    "name": "desk",
+
+    "room_description": false,
+
+    "starting_loc": "office",
+
+    "current_loc": "office",
+
+    "look_description": "This is a large oak desk which appears to have been well used. It is covered with miscellaneous office supplies: paper clips, writing instruments, and scraps of paper - none of which appear to be very important at this time. A large metal typewriter rests on its surface. The desk contains a large drawer, which is slightly ajar.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The desk is smooth and sturdy. You don't feel anything out of place.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like oak.",
+                
+                "flag": []
+            },
+            "sit at": {
+
+                "text": "You sit down at the desk. It makes you feel momentarily important. You stand back up.",
+                
+                "flag": []
+            },
+            "stand on": {
+
+                "text": "You climb on top of the desk and jump up and down a bit. The desk holds. It's old but it's good quality.",
+                
+                "flag": []
+            },
+            "climb on": {
+
+                "text": "You climb on top of the desk and jump up and down a bit. The desk holds. It's old but it's good quality.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "You open the desk drawer. There are several papers stacked inside, but one in particular catches your eye...",
+                
+                "flag": []
+            },
+            "open drawer": {
+
+                "text": "You open the desk drawer. There are several papers stacked inside, but one in particular catches your eye...",
+                
+                "flag": []
+            },
+            "open desk drawer": {
+
+                "text": "You open the desk drawer. There are several papers stacked inside, but one in particular catches your eye...",
+                
+                "flag": []
+            }                 
+        }
+    ]
+
+}

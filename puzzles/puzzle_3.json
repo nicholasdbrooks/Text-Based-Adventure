@@ -1,0 +1,9 @@
+{
+  "puzzle_num": 3,
+  "puzzle_location": "music room",
+  "key_item":["piano cartridge", "cartridge"],
+  "key_command": ["insert"],
+  "key_item2": ["piano", "cartridge slot"],
+  "solved_description": "You insert the piano cartridge into the slot. At first, nothing happens, but then the cartridge slowly begins to turn. It plays a repeating note progression, AEFC AEFC AEFC. It isn't the best song you've ever heard, but something tells you these notes are important.",
+  "item_given": ""
+}

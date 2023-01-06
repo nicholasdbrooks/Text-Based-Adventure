@@ -1,0 +1,45 @@
+{
+    "name": "telegram",
+
+    "room_description": "There is a telegram on the floor here.",
+
+    "starting_loc": "kitchen",
+
+    "current_loc": "kitchen",
+
+    "look_description": "October 7, 1903\n\nDear Mama and Papa,\n\nThe baby has finally arrived! Your grandson is 6 pounds and 11 ounces and 20 inches long. He is strong and healthy. We have named him James after his grandfather. I hope the both of you will find time to come and visit? I know Papa's health is declining. Maybe you should find a different doctor. You already know my opinion about Dr. Peters so I won't repeat it. I just think you should be aware is all.\n\nWishing you both nothing but love and health. Your loving daughter\n\nClara",
+    
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The letter feels old and crumbly.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like ink and paper.",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "October 7, 1903\n\nDear Mama and Papa,\n\nThe baby has finally arrived! Your grandson is 6 pounds and 11 ounces and 20 inches long. He is strong and healthy. We have named him James after his grandfather. I hope the both of you will find time to come and visit? I know Papa's health is declining. Maybe you should find a different doctor. You already know my opinion about Dr. Peters so I won't repeat it. I just think you should be aware is all.\n\nWishing you both nothing but love and health. Your loving daughter\n\nClara",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

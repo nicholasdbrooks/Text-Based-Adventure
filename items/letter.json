@@ -1,0 +1,45 @@
+{
+    "name": "letter",
+
+    "room_description": "There is letter located on the floor here.",
+
+    "starting_loc": "foyer",
+
+    "current_loc": "foyer",
+
+    "look_description": "The paper itself is stained, so badly that it is almost unreadable. The only things you can make out are the date - October 28, 1903, and a couple of lines at the bottom: 'I will spend the rest of my life in repentance. She told me it was for the rats'. The letter is signed by Dr. Peters. What happened here?",
+
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "read": {
+
+                "text": "The paper itself is stained, so badly that it is almost unreadable. The only things you can make out are the date - October 28, 1903, and a couple of lines at the bottom: 'I will spend the rest of my life in repentance. She told me it was for the rats'. The letter is signed by Dr. Peters. What happened here?",
+                
+                "flag": []
+            },
+            "touch": {
+
+                "text": "The paper is old and crumbling. You are worried it will disintigrate in your fingers.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The paper smells like mold and dust.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

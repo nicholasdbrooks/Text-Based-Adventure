@@ -1,0 +1,51 @@
+{
+    "name": "trapdoor",
+
+    "room_description": false,
+
+    "starting_loc": "hallway",
+
+    "current_loc": "hallway",
+
+    "look_description": "Above you is a beat-up hatch door. It's made of wood and has an iron handle nailed to one side. You try to open it, but you can't quite reach the handle. It's a pity because you are so close.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": true,
+
+    "is_story_item": false,
+
+    "related_items": ["fire poker"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The door is out of reach.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The door is too far away to smell.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "The door is out of reach.",
+                
+                "flag": []
+            },
+            "jump": {
+
+                "text": "You jump for it but the door is still out of reach.",
+                
+                "flag": []
+            }
+        }  
+    ]
+
+}

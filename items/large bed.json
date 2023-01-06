@@ -1,0 +1,45 @@
+{
+    "name": "large bed",
+
+    "room_description": false,
+
+    "starting_loc": "guest bedroom",
+
+    "current_loc": "guest bedroom",
+
+    "look_description": "The bed is a gargantuan monstrosity that takes up the majority of the room. It is a four-poster bed with massive, carved wooden posts and curtains made of a heavy, red velvet. The curtains are currently tied back with thick, golden ropes.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The bed feels soft enough, though a bit unclean.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells dusty.",
+                
+                "flag": []
+            },
+            "lay": {
+
+                "text": "You lay on the bed. It's comfy enough. You get up again.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,18 @@
+{
+    "name": "dining room",
+    
+    "long_desc": "A fancy chandelier hangs from the ceiling, covered in dust. Below the chandelier is a big wooden table, fully dressed for a big feast that, judging on the amount of dust on the dishes, never happened. The dining room gives you an uncomfortable feeling; maybe it's the fact that you don't know what happened to all of the people who were supposed to be eating here. Or maybe it's because you are woefully underdressed for such an elegant feast. Seriously, a tee shirt and jeans? Covered in dirt too? No wonder you feel out of place. A fancy doorway to the north leads out of the room, while an archway in the west takes you back to the foyer.",
+    
+    "short_desc": "You reenter the dining room, and, despite your best efforts, you still feel out of place. There is a big wooden table here. A western archway leads back to the foyer and a northern fancy doorway leads to the kitchen. Maybe one of those places will have a suit so you feel less underdressed. But probably not.",
+    
+    "init_items" : ["table", "dishes"],
+
+    "current_items" : ["table", "dishes"],
+
+    "exits" : [
+      {
+        "north": ["kitchen", "fancy doorway"],
+        "west": ["foyer", "western archway"]
+      }
+    ]
+}

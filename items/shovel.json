@@ -1,0 +1,39 @@
+{
+    "name": "shovel",
+
+    "room_description": false,
+
+    "starting_loc": "backyard",
+
+    "current_loc": "backyard",
+
+    "look_description": "While most of the tools in the shed are hanging from various hooks and organized neatly, this shovel seems to have been thrown hastily on the floor. The shovel has a steel blade and its handle reaches up to your chest. The blade is covered with patches of dirt (still wet!) which seems to suggest it has been recently used to dig in moist ground.",
+
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": true,
+
+    "is_story_item": false,
+
+    "related_items": ["square tombstone"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The shovel feels worn and it's covered in dirt. You wipe the dirt on your pants.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like fresh earth.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

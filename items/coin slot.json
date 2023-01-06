@@ -1,0 +1,46 @@
+{
+    "name": "coin slot",
+
+    "room_description": false,
+
+    "starting_loc": "kitchen",
+
+    "current_loc": "kitchen",
+
+    "look_description": "This small slot looks like it would accept some type of coin.",
+    
+    "synonyms":["coinslot"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": ["nickel"],
+
+    "verbs": [
+        {
+            "examine": {
+
+                "text": "This small slot looks like it would accept some type of coin.",
+                
+                "flag": []
+            },
+            "touch": {
+
+                "text": "This small slot looks like it would accept some type of coin.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like metal and dust.",
+                
+                "flag": []
+            }
+         
+        }
+    ]
+
+}

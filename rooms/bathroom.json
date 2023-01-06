@@ -1,0 +1,17 @@
+{
+    "name": "bathroom",
+
+    "long_desc": "You are unbelievable. You just barged into the bathroom without knocking; what if somebody was in there?!? Sheesh... some people! You see a sink here. The mirror that you would expect to see above the sink isn't there. Opposite the sink is a toilet. A toilet that could have held someone who would have been so rudely interrupted by your lack of manners. To the south is an open door leading back to the master bedroom.",
+    
+    "short_desc": "YOU STILL DIDN'T KNOCK?!? What is wrong with you? Ugh, fine. Sink. Toilet. South doorway. Leave now please and don't come back till you find some manners.",
+
+    "init_items" : ["sink", "soap", "toilet"],
+
+    "current_items" : ["sink", "soap", "toilet"],
+
+    "exits" : [
+      {
+        "south": ["master bedroom", "open door"]
+      }
+    ]
+}

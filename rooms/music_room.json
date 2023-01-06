@@ -1,0 +1,18 @@
+{
+    "name": "music room",
+    
+    "long_desc": "A piano sits in the middle of the room. Despite the condition of the rest of the mansion, this room appears untouched; clearly someone has been taking care of this music room. This would be a lovely place to spend an afternoon. You wish that you had paid more attention in music class so you could try to play the piano. But alas, no one, including yourself, wants to hear you attempt Hot Cross Buns, so you decide against it. If only the piano would play itself! To the west is a beautiful set of open glass doors, leading to some sort of library. You can also see an exit that leads to the foyer to the south.",
+    
+    "short_desc": "You enter the music room. Unfortunately, despite the time away, you still haven't learned how to play the piano. Maybe you can find something to play it for you? A southern exit leads back to the foyer, and a western set of open glass doors leads to a library.",
+    
+    "init_items" : ["piano", "cartridge slot"],
+
+    "current_items" : ["piano", "cartridge slot"],
+
+    "exits" : [
+      {
+        "west": ["library", "glass doors"],
+        "south": ["foyer"]
+      }
+    ]
+}

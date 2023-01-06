@@ -1,0 +1,21 @@
+{
+    "name": "hallway",
+
+    "long_desc": "At long last, you reach the top of the staircase: this must be the second floor. You pat yourself on the back for making such an astute observation; after all, Dr. Peters said you should give yourself some credit. As you look around, you can see two identical doorways: one on the east end of the hallway, and one on the west end of the hallway. Out of the corner of your eye, you can spy some sort of trapdoor up above. And, of course, you can always go back down the stairs to the south. The possibilities are endless!",
+    
+    "short_desc": "Ah, the hallway. The ole' room connector. The arteries of the house. You pat yourself on the back for that wonderful simile. Or is it a metaphor? Ehh, whatever; there are identical doorways to your east and west, a southern staircase leading downstairs, and a trapdoor up in the ceiling.",
+
+    "init_items" : ["trapdoor"],
+
+    "current_items" : ["trapdoor"],
+
+    "exits" : [
+      {
+        "east": ["guest bedroom"],
+        "west": ["master bedroom"],
+        "up": ["attic"],
+        "down": ["foyer"],
+        "south": ["foyer"]
+      }
+    ]
+}

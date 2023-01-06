@@ -1,0 +1,39 @@
+{
+    "name": "pillow",
+
+    "room_description": false,
+
+    "starting_loc": "guest bedroom",
+
+    "current_loc": "guest bedroom",
+
+    "look_description": "It is a moldy pillow.",
+
+    "synonyms":["pillows"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The pillow feels fluffy, despite being full of weird lumps.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like mothballs.",
+                
+                "flag": []
+            }        
+        }
+    ]
+
+}

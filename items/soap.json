@@ -1,0 +1,39 @@
+{
+    "name": "soap",
+
+    "room_description": "There is a bar of soap here.",
+
+    "starting_loc": "bathroom",
+
+    "current_loc": "bathroom",
+
+    "look_description": "The bar of soap is eerily well preserved. It's pink and smells like roses. You take a grateful second whiff. The rest of the house still smells like mold and mildew.",
+
+    "synonyms":["bar"],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The soap feels waxy.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells fruity.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

@@ -1,0 +1,33 @@
+{
+    "name": "coffin",
+
+    "room_description": false,
+
+    "starting_loc": "graveyard",
+
+    "current_loc": "graveyard",
+
+    "look_description": "You pull the lid off of the coffin. You have had a growing sense of dread that seems to be peaking. The body inside the coffin has withered away with age. The skin is brown and mummified, but the face still looks a little too familiar. And those clothes… the shirt and the pants are uncanny, but those shoes, those were your favorite shoes. In fact…you're wearing them now. You're wearing this entire outfit right now. And that facie...it's not just familiar...it's your own. You reach out to touch it with mute horror and the moment you make contact, memories come flooding back.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "placeholder I think the game ends when they find this anyway",
+                
+                "flag": []
+            }                
+        }
+    ]
+
+}

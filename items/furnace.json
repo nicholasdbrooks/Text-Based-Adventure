@@ -1,0 +1,45 @@
+{
+    "name": "furnace",
+
+    "room_description": false,
+
+    "starting_loc": "furnace room",
+
+    "current_loc": "furnace room",
+
+    "look_description": "The furnace is a large cast iron oven. Black smoke pours out of the open door on the front of the furnace, while a fire rages inside. You stop and wonder who could have possibly been keeping this furnace running in a seemingly abandoned house. You can't think of any reason why the furnace would be on. That doesn't exactly make you feel any better about your current situation.",
+    
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "You decide against touching the furnace as it would definitely burn your hands off.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "It smells like smoke. This would be comforting if anyone was actually living here...",
+                
+                "flag": []
+            },
+            "turn off": {
+
+                "text": "You can't seem to turn the furnace off.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

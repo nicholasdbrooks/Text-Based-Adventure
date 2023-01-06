@@ -1,0 +1,18 @@
+{
+    "name": "storage room",
+    
+    "long_desc": "As you step down the stairs from the kitchen, you find yourself in a dank, dimly lit room. Barrels line the walls and some sort of red liquid covers the floor. Please be wine, please be wine you think to yourself. And it is wine... probably? As you contemplate what the liquid could be, you figure out a great solution: don't think about it. The room smells oddly like a pile of mud sprayed with perfume. It isn't a bad smell, it just confuses you more than anything. To the west of the barrels is a brick archway leading to a smoky room. To the south is the metal door leading back to the kitchen.",
+    
+    "short_desc": "As you enter the storage room, you are still confused by the smell. Do you like the smell? Do you dislike it? You can't decide. The smoke coming from the furnace room to the west certainly doesn't help. Maybe you should just take the metal door to the south back to the kitchen to avoid further olfactory confusion.",
+    
+    "init_items" : ["barrels", "wine", "floor"],
+
+    "current_items" : ["barrels", "wine", "floor"],
+
+    "exits" : [
+      {
+        "west": ["furnace room", "brick archway"],
+         "south" : ["kitchen"]
+      }
+    ]
+}

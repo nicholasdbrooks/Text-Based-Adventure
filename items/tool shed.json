@@ -1,0 +1,63 @@
+{
+    "name": "tool shed",
+
+    "room_description": false,
+
+    "starting_loc": "backyard",
+
+    "current_loc": "backyard",
+
+    "look_description": "You see an old wooden tool shed. The roof of the shed is covered in a thick layer of moss, which makes you think that this structure has been here for quite some. A large iron padlock is attached to the shed's door.",
+
+    "synonyms":["shed", "toolshed"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": ["keyring"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The tool shed is made of wood with glass windows and a big metal lock. You can feel a layer of grime coating the entire structure.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like moss and mud.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "It's locked.",
+                
+                "flag": []
+            },
+            "break": {
+
+                "text": "You try to put your foot through the door and fail. A couple of rocks to the windows fail as well. This shed is impressively built. You suppose you'll have to find a legitimate way in.",
+                
+                "flag": []
+            },
+            "kick": {
+
+                "text": "You try to put your foot through the door and fail. A couple of rocks to the windows fail as well. This shed is impressively built. You suppose you'll have to find a legitimate way in.",
+                
+                "flag": []
+            },
+            "force": {
+
+                "text": "You try to put your foot through the door and fail. A couple of rocks to the windows fail as well. This shed is impressively built. You suppose you'll have to find a legitimate way in.",
+                
+                "flag": []
+            }           
+        }
+    ]
+
+}

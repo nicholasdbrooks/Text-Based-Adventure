@@ -1,0 +1,9 @@
+{
+  "puzzle_num": 4,
+  "puzzle_location": "master bedroom",
+  "key_item": ["code"],
+  "key_command": ["input"],
+  "key_item2": ["safe"],
+  "solved_description": "You enter the code into the safe. The safe clicks, and you can open up the door. You do so, eagerly awaiting your hard earned (well, earned) treasure. And it is.... a set of keys? Really, that's it? You check closer to make sure you didn't miss anything, but it really only has a set of keys. Guess you should find something to unlock...",
+  "item_given": "keyring"
+}

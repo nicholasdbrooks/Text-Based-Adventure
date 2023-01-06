@@ -1,0 +1,9 @@
+{
+  "puzzle_num": 1,
+  "puzzle_location": "kitchen",
+  "key_item": ["nickel", "coin"],
+  "key_command": ["put", "insert"],
+  "key_item2": ["coin slot", "metal door"],
+  "solved_description": "Clink. The nickel slides perfectly into the slot on the metal door. A loud hissing sound comes from the door, startling you. As you begin to step away, the door cracks open. You see a set of stairs leading down into some sort of storage room.",
+  "item_given": ""
+}

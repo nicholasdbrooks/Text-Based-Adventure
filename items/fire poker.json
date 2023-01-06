@@ -1,0 +1,41 @@
+{
+    "name": "fire poker",
+
+    "room_description": "There is a fire poker lying on the floor here.",
+
+    "starting_loc": "furnace room",
+
+    "current_loc": "furnace room",
+
+    "look_description": "The fire poker is about 3 feet long, with a hook on the end. The fire poker is very ornate, with lots of decorative flourishes. It is also, unfortunately for you, covered in black soot. You wipe your hands on your pants, leaving long black streaks. Oh well, you weren't presentable anyway. Clearly, this fire poker hasn't been used in years, but maybe you could find a use for it.",
+    
+    "synonyms":["poker", "firepoker"],
+
+    "holdable": true,
+
+    "is_game_key": true,
+
+    "is_story_item": false,
+    
+    "used_with": ["trapdoor"],
+
+    "related_items": ["trapdoor"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The fire poker is covered in black soot and now so are your hands. Yuck!",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells smoky.",
+                
+                "flag": []
+            }      
+        }
+    ]
+
+}

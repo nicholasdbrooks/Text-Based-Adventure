@@ -1,0 +1,17 @@
+{
+    "name": "graveyard",
+    
+    "long_desc": "You step through a wrought iron gate. Wow, there are quite a lot of statues here. It's an odd choice to have a statue of a square and an oval, but you suppose that money can't buy taste. Wait. The oval and square have writing on them? A name? That must be the sculptor. And a date, 1837-1903? That must be… when he made this square statue? A shiver runs up your spine. You try to rack your brain for any explanation that doesn't mean that you are currently standing next to two tombstones in the middle of a graveyard. But alas, you know that there is no other explanation as you look down at an oval tombstone and a square tombstone. To your south is the wrought iron gate you entered through.",
+    
+    "short_desc": "You step back through the wrought iron gate. Two tombstones stand in the moonlit graveyard: a square tombstone and an oval tombstone. Unfortunately, it hasn't gotten any less creepy since the last time you were here.",
+    
+    "init_items" : ["oval tombstone", "square tombstone", "coffin"],
+
+    "current_items" : ["oval tombstone", "square tombstone", "coffin"],
+
+    "exits" : [
+      {
+        "south": ["backyard", "iron gate"]
+      }
+    ]
+}

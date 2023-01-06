@@ -1,0 +1,18 @@
+{
+    "name": "backyard",
+    
+    "long_desc": "As you exit the french doors, you step out into the cool midnight air. The breeze feels good as it flows through your hair. You take a minute to enjoy the scenery. The height of the fence is awe inspiring, certainly no man could scale its high peaks. You gaze in wonder at that beautiful tool shed, handcrafted from the finest materials. To the north is a beautiful wrought iron gate that takes your breath away, as it is surely filled with the best tetanus this side of the Mississippi. The overgrown bushes show you the majesty of Mother Nature as it takes over the corner of the yard. You sigh. Dr. Peters told you that positive thinking would help you overcome challenges, but you feel silly trying to think of this dingy backyard as anything but a dingy backyard in a creepy mansion that you don't want to be in. Oh well. Maybe you'll try the whole 'positive thinking' thing again next week. To your west is a set of french doors leading back to the kitchen.",
+    
+    "short_desc": "You step back into the beautiful backyard. Well, the backyard part is true at least. You see a tool shed on your left, next to the overgrown bushes in the corner. A wrought iron gate to the north leads further into the yard, while you can see light from the kitchen coming through the french doors to the west.",
+    
+    "init_items" : ["tool shed", "lock", "shovel", "bushes"],
+
+    "current_items" : ["tool shed", "lock", "shovel", "bushes"],
+
+    "exits" : [
+      {
+        "north": ["graveyard", "iron gate"],
+        "west": ["kitchen", "french doors"]
+      }
+    ]
+}

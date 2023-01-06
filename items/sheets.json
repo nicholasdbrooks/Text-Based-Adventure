@@ -1,0 +1,39 @@
+{
+    "name": "sheets",
+
+    "room_description": false,
+
+    "starting_loc": "guest bedroom",
+
+    "current_loc": "guest bedroom",
+
+    "look_description": "The sheets are folded to military perfection. Each corner is a crisp right angle, and even after all this time, there are no wrinkles. You wonder once again who this room was for.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The sheets still feel soft and almost clean.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "You can still pick up the faint smell of soap.",
+                
+                "flag": []
+            }        
+        }
+    ]
+
+}

@@ -1,0 +1,39 @@
+{
+    "name": "mannequin",
+
+    "room_description": false,
+
+    "starting_loc": "attic",
+
+    "current_loc": "attic",
+
+    "look_description": "It is a mannequin for displaying clothes. Wow, that thing is horrible. There is low, slanting moonlight coming in through a small skylight and the way it crosses the mannequin's eyes makes them come alive. Did it just blink? You shudder to turn away from it, but you can't stand to watch it a moment longer.",
+
+    "synonyms":["dummy"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "Though real-looking, the mannequin does feel like merely fabric.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells dusty.",
+                
+                "flag": []
+            }                
+        }
+    ]
+
+}

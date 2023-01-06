@@ -1,0 +1,62 @@
+{
+    "name": "safe",
+
+    "room_description": false,
+
+    "starting_loc": "master bedroom",
+
+    "current_loc": "master bedroom",
+
+    "look_description": "As you take down the painting, you feel an instant sense of relief; the room feels so much better sans painting. When you turn back to the wall, you see something unexpected: a safe? The worst painting in the world was covering up a wall safe. Smart, you think to yourself. Any reasonable person would take one look at the painting and never want to look there again, which would probably help keep the safe hidden. You try to open the safe, but it is locked, because of course it is. You look closer at the safe and see that it has a combination lock that requires four letters to unlock. It looks like you should input a code here. But what are the four letters?",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The safe is made of cool, smooth metal.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells metallic.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "It's locked.",
+                
+                "flag": []
+            },
+            "crack": {
+
+                "text": "You know nothing about cracking open a safe, so you try smashing the safe with the painting. The painting is a bit dented but the safe remains unchanged.",
+                
+                "flag": []
+            },
+            "pick": {
+
+                "text": "You know nothing about cracking open a safe, so you try smashing the safe with the painting. The painting is a bit dented but the safe remains unchanged.",
+                
+                "flag": []
+            },
+            "break": {
+
+                "text": "You know nothing about cracking open a safe, so you try smashing the safe with the painting. The painting is a bit dented but the safe remains unchanged.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

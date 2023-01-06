@@ -1,0 +1,9 @@
+{
+  "puzzle_num": 2,
+  "puzzle_location": "hallway",
+  "key_item": ["trapdoor", "trap door", "fire poker", "firepoker"],
+  "key_command": ["use", "pull"],
+  "key_item2": ["firepoker", "fire poker", "trapdoor", "trap door"],
+  "solved_description": "You reach with the fire poker, and are just able to snag the hook hanging down from the trapdoor. As you pull down the trapdoor, a ladder unfolds, giving you access to the attic.",
+  "item_given": ""
+}

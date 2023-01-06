@@ -1,0 +1,39 @@
+{
+    "name": "keyring",
+
+    "room_description": false,
+
+    "starting_loc": "master bedroom",
+
+    "current_loc": "master bedroom",
+
+    "look_description": "The keyring itself looks to be high quality, but it contains only one ugly, rusted key.",
+
+    "synonyms":[],
+
+    "holdable": true,
+
+    "is_game_key": true,
+
+    "is_story_item": true,
+
+    "related_items": ["tool shed"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The keyring is nice enough but the key is rough and covered in rust.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "mells rusty.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

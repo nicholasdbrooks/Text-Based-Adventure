@@ -1,0 +1,44 @@
+{
+    "name": "oval tombstone",
+
+    "room_description": false,
+
+    "starting_loc": "graveyard",
+
+    "current_loc": "graveyard",
+
+    "look_description": "The oval tombstone looks hastily done. It contains only a name: 'Samuel Rothester' and a date: 1837-1903.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "Feels like dirt covered stone.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like dirt.",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "The Oval Tombstone looks hastily done. It contains only a name: 'Samuel Rothester' and a date: '1837-1903'.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

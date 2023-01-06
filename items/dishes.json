@@ -1,0 +1,45 @@
+{
+    "name": "dishes",
+
+    "room_description": false,
+
+    "starting_loc": "dining room",
+
+    "current_loc": "dining room",
+
+    "look_description": "Various dishware, including plates, silverware, and glasses are scattered across the table. You wonder why no one cleaned this all up. It almost seems as if a dinner party ended abruptly here.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "he dishware is cool and feels delicate.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The dishware smells dusty but otherwise untouched.",
+                
+                "flag": []
+            },
+            "throw": {
+
+                "text": "You contemplate hurling a plate at the wall, but after looking at the delicate roses painstakingly painted around the rim, you decide better of it.",
+                
+                "flag": []
+            }       
+        }
+    ]
+
+}

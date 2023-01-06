@@ -1,0 +1,39 @@
+{
+    "name": "sink",
+
+    "room_description": false,
+
+    "starting_loc": "bathroom",
+
+    "current_loc": "bathroom",
+
+    "look_description": "The sink is a white porcelain bowl set inside a dark wooden base. There is a cabinet in the base, but closer examination reveals it to be mostly toiletries and personal care items. You blush in spite of yourself. Maybe it's best to give these poor people SOME degree of privacy? You don't think you will find anything helpful here anyway.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The sink is cold and smooth.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like dust.",
+                
+                "flag": []
+            }        
+        }
+    ]
+
+}

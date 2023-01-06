@@ -1,0 +1,69 @@
+{
+    "name": "metal door",
+
+    "room_description": false,
+
+    "starting_loc": "kitchen",
+
+    "current_loc": "kitchen",
+
+    "look_description": "A large, metal door stands foreboding in front of you. Oddly, there isn't even a keyhole in the door. The only opening on the door is some sort of slot. What are you even supposed to put in there? A coin?",
+    
+    "synonyms":["door"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The door is cold, smooth metal.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells metallic.",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "Despite seeing the heavy metal hinges bolted to the wall, you try and fail to pick up the metal door.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "It's locked.",
+                
+                "flag": []
+            },
+            "break": {
+
+                "text": "You throw your full body weight into the door but it does not budge. You feel a bit ridiculous for even trying and now your shoulder is aching. You look over your shoulder as if you expect Dr. Peters to be there frowning. ",
+                
+                "flag": []
+            },
+            "kick": {
+
+                "text": "You throw your full body weight into the door but it does not budge. You feel a bit ridiculous for even trying and now your shoulder is aching. You look over your shoulder as if you expect Dr. Peters to be there frowning. ",
+                
+                "flag": []
+            },
+            "force": {
+
+                "text": "You throw your full body weight into the door but it does not budge. You feel a bit ridiculous for even trying and now your shoulder is aching. You look over your shoulder as if you expect Dr. Peters to be there frowning. ",
+                
+                "flag": []
+            }                  
+        }
+    ]
+
+}

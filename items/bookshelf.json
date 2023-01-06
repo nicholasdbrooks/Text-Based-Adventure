@@ -1,0 +1,51 @@
+{
+    "name": "bookshelf",
+
+    "room_description": false,
+
+    "starting_loc": "library",
+
+    "current_loc": "library",
+
+    "look_description": "You take a second to take in the wall to wall bookshelf in all of its glory. Books line the shelves, each one a portal to a new and exciting world. As you gaze over the vast landscape of books, something catches your eye. A worn leather book slightly sticks out from the rest of the books, as if someone had tried to put the book back as quickly as possible.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The book shelf feels solid and wooden.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like paper and leather.",
+                
+                "flag": []
+            },
+            "knock over": {
+
+                "text": "You shove against the bookshelf in an attempt to knock it over. However it would appear that you are not strong enough.",
+                
+                "flag": []
+            },
+            "push": {
+
+                "text": "You shove against the bookshelf in an attempt to knock it over. However it would appear that you are not strong enough.",
+                
+                "flag": []
+            }
+        }  
+    ]
+
+}

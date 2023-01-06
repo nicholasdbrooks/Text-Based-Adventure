@@ -1,0 +1,39 @@
+{
+    "name": "floor",
+
+    "room_description": false,
+
+    "starting_loc": "storage room",
+
+    "current_loc": "storage room",
+
+    "look_description": "A large, dark red stain covers the floor. Please be wine, please be wine you think to yourself. And it is wine... probably?",
+
+    "synonyms":["stain"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "It's sticky.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells fruity and rotten.",
+                
+                "flag": []
+            }          
+        }
+    ]
+
+}

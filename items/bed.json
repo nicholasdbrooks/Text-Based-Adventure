@@ -1,0 +1,51 @@
+{
+    "name": "bed",
+
+    "room_description": false,
+
+    "starting_loc": "master bedroom",
+
+    "current_loc": "master bedroom",
+
+    "look_description": "Although this bed was clearly in the middle of having its sheets changed, it's still horrible. The bedframe is oddly understated and the lack of bedding gives the room a hollow and unlived in feeling. You imagine that sitting on the bed would give a perfect view of the gaudy painting on the opposite wall.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The bed is firm and the matress feels rough with no sheets.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like mildew.",
+                
+                "flag": []
+            },
+            "use": {
+
+                "text": "You climb on the bed and stare listlessly at the ceiling for a moment, before climbing out.",
+                
+                "flag": []
+            },
+            "lay": {
+
+                "text": "You climb on the bed and stare listlessly at the ceiling for a moment, before climbing out.",
+                
+                "flag": []
+            }
+            
+        }
+    ]
+
+}

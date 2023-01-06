@@ -1,0 +1,38 @@
+{
+    "name": "nickel",
+
+    "room_description": false,
+
+    "starting_loc": "library",
+
+    "current_loc": "library",
+
+    "look_description": "As you look at the nickel, you can instantly see that this is no ordinary nickel. It isn't any currency you've ever seen before; rather, it doesn't look like currency at all. On one side is a picture of a fire, while the other side has the silhouette of someone who must be important. You feel like this nickel is important, though you can't place your finger on why.",
+
+    "synonyms":["coin"],
+
+    "holdable": true,
+
+    "is_game_key": true,
+
+    "is_story_item": false,
+
+    "related_items": ["coin slot"],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The coin is cool and dusty.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells metallic.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

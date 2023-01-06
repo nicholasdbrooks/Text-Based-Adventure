@@ -1,0 +1,20 @@
+{
+    "name": "foyer",
+    
+    "long_desc": "You wake up in a cold sweat. You reach over to grab your watch, but it's not on your nightside table. Your nightside table isn't there either. Come to think of it, you're not on your bed; where are you? You stand up and look around at your surroundings: you seem to be in the foyer of some mysterious mansion. A southern staircase leads up to the second floor, a doorway leads to the west, an eastern archway leads to another room on your right, and a northern exit sits in front of you. The only furniture in the room is a single pedestal with some knick knacks on it; whoever owns this house must be a minimalist. Oddly enough, you don't see any front door, even though this does appear to be the entrance to the mansion.",
+    
+    "short_desc": "You are back in the foyer. You can see a southern staircase leading to the second floor, a doorway to the west, an exit to the north, and an eastern archway leading to another room. Still no front door though, an interesting design choice. There is a pedestal here.",
+    
+    "init_items" : ["pedestal", "letter"],
+
+    "current_items" : ["pedestal", "letter"],
+
+    "exits" : [
+      {
+        "north": ["music room", "northern exit"],
+        "east": ["dining room","eastern archway"],
+        "west": ["office"],
+        "south": ["hallway", "southern staircase"]
+      }
+    ]
+}

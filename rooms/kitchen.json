@@ -1,0 +1,19 @@
+{
+    "name": "kitchen",
+    
+    "long_desc": "The smell of food wafts into your nostrils. It isn't a good smell; it smells like the food has been there for a few decades. The yellowed wallpaper is peeling off slowly; clearly this kitchen hasn't been used for a long time. But, you see some lemons on the counter that look... ripe? That's a bit disconcerting. Oh well, free lemons! Next to the lemons is a knife block. You also see a set of french doors to the east that appear to lead outside. Ominously standing in the corner to the north is a heavy metal door. Whoever owns this mansion clearly doesn't want someone getting in there... or out! Behind you to the south is the doorway to the dining room. Ooh, is that wainscoting? Let me fix that: behind you to the south is a fancy doorway to the dining room.",
+    
+    "short_desc": "You enter the kitchen again. You'd like to make some pancakes, but you doubt that they have the ingredients. Some lemons sit on the counter next to the east french doors which lead to the backyard. The ominous heavy door is in the north corner, and the south entrance to the dining room is still fancy.",
+    
+    "init_items" : ["lemons", "metal door", "coin slot", "knife block", "telegram"],
+
+    "current_items" : ["lemons", "metal door", "coin slot", "knife block", "telegram"],
+
+    "exits" : [
+      {
+        "north": ["storage room"],
+        "south": ["dining room", "fancy doorway"],
+        "east": ["backyard", "french doors"]
+      }
+    ]
+}

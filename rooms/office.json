@@ -1,0 +1,18 @@
+{
+    "name": "office",
+
+    "long_desc": "As you step inside, you feel a sense of familiarity. You see a large wooden desk as well as a comfortable-looking chair. You spy a large desk with a typewriter on it; next to the typewriter are blank pages. It appears like this is someone's workspace. Through the east sliding door is the foyer, and a passageway to the north leads to some sort of library.",
+    
+    "short_desc": "You step back into the office which contains a large wooden desk with a typewriter. To the east is the sliding door leading to the foyer, and the passageway to the north leads to the library.",
+    
+    "init_items" : ["desk", "typewriter", "invoice", "chair"],
+
+    "current_items" : ["desk", "typewriter", "invoice", "chair"],
+
+    "exits" : [
+      {
+        "east": ["foyer", "sliding door"],
+        "north": ["library", "passageway"]
+      }
+    ]
+}

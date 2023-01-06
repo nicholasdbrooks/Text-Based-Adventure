@@ -1,0 +1,39 @@
+{
+    "name": "bushes",
+
+    "room_description": false,
+
+    "starting_loc": "backyard",
+
+    "current_loc": "backyard",
+
+    "look_description": "Rows of bushes and hedges dot the backyard. At one time, this yard must have been spectacular to see, but most of the shrubbery is now either overgrown or dying. Whoever once loved this space, clearly no longer has the time or interest to maintain it. You actually think you can make out topiary figures among some of the bushes. Is that hedge shaped like an elephant? A duck? Oh well, it's hard to say at this point. Kind of sad, really.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The bushes are full of thorns! You yelp and draw your hand back.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like roses.",
+                
+                "flag": []
+            }        
+        }
+    ]
+
+}

@@ -1,0 +1,45 @@
+{
+    "name": "square tombstone",
+
+    "room_description": false,
+
+    "starting_loc": "graveyard",
+
+    "current_loc": "graveyard",
+
+    "look_description": "You try to read the writing on the square tombstone, but it is so old and dilapidated that you find you can’t make out a single thing. The square tombstone has obviously been here much longer than the oval tombstone. Best to leave it be.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": ["shovel"],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "Feels like dirt covered stone.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like dirt.",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "You try to read the writing on the Square Tombstone, but it is so old and dilapidated that you find you can’t make out a single thing. This grave has obviously been here much longer. Best to leave it be.",
+                
+                "flag": []
+            }         
+        }
+    ]
+
+}

@@ -1,0 +1,18 @@
+{
+    "name": "library",
+
+    "long_desc": "As you step into the room, you are surrounded by the warm smells of leather and mahogany. There is no mistaking it: you are in a library. Books line the wall-to-wall bookshelves and a cozy leather recliner sits in the center of the room. Ahh... You think to yourself that this room isn't too bad, you wouldn't mind staying here. After all, Dr. Peters said you should be more open to change, and spending your life in this library would be quite the change. But, after some thought, you decide that this probably wasn't what Dr. Peters was talking about. Too bad! There are open glass doors to the east that lead to another room, and a passageway to the south that leads to an office.",
+    
+    "short_desc": "You enter the library. There are enough books on the bookshelf here to keep you entertained for decades (you've already been over this; you can't stay here!). You also spy a comfortable leather recliner in the middle of the room. You can see a set of open glass doors to the east leading to another room, and a passageway leading to the office to the south.",
+    
+    "init_items" : ["bookshelf", "book", "nickel", "recliner", "note"],
+
+    "current_items" : ["bookshelf", "book", "nickel", "recliner", "note"],
+
+    "exits" : [
+      {
+        "east": ["music room", "glass doors"],
+        "south": ["office", "passageway"]
+      }
+    ]
+}

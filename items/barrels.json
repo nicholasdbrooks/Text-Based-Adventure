@@ -1,0 +1,69 @@
+{
+    "name": "barrels",
+
+    "room_description": false,
+
+    "starting_loc": "storage room",
+
+    "current_loc": "storage room",
+
+    "look_description": "At one time, these barrels likely held different types of perishable foodstuffs that could be preserved by the dry air emanating from the furnace room. Now, they are filled only with dust and unrecognizable debris.",
+
+    "synonyms":["barrel"],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "They're dusty and feel slightly damp.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "It smells like mildew.",
+                
+                "flag": []
+            },
+            "look in": {
+
+                "text": "The barrels are empty.",
+                
+                "flag": []
+            },
+            "look inside": {
+
+                "text": "The barrels are empty.",
+                
+                "flag": []
+            },
+            "open": {
+
+                "text": "There is no lid anywhere to be seen, these barrels now sit open.",
+                
+                "flag": []
+            },
+            "knock over": {
+
+                "text": "You slam your foot against the barrel, eliciting no reaction except burning pain in your toe. Nice going.",
+                
+                "flag": []
+            },
+            "climb in": {
+
+                "text": "You climb inside the barrel. It's kind of cozy in here. You climb out again.",
+                
+                "flag": []
+            }
+        }     
+    ]
+
+}

@@ -1,0 +1,45 @@
+{
+    "name": "piano cartridge",
+
+    "room_description": "There is a player piano cartridge here.",
+
+    "starting_loc": "attic",
+
+    "current_loc": "attic",
+
+    "look_description": "It is a perforated metallic roll. It takes you a moment, but you finally recognize the perforations as notes. This is a player piano cartridge! It's dusty, but you think it might still work.",
+
+    "synonyms":["cartridge"],
+
+    "holdable": true,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": ["cartridge slot"],
+
+    "verbs": [
+        {
+            "examine": {
+
+                "text": "It is a perforated metallic roll. It takes you a moment, but you finally recognize the perforations as notes. This is a player piano cartridge! It's dusty, but you think it might still work.",
+                
+                "flag": []
+            },
+            "touch": {
+
+                "text": "The metal is cold and the perforations feel strange under your fingers. You stop playing with it for fear you will break it.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "It smells metallic and almost kind of...nostalgic?",
+                
+                "flag": []
+            } 
+        }
+    ]
+
+}

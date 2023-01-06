@@ -1,0 +1,52 @@
+{
+    "name": "piano",
+
+    "room_description": false,
+
+    "starting_loc": "music room",
+
+    "current_loc": "music room",
+
+    "look_description": "It is a large wooden player piano. The ivory keys seem relatively untouched, which makes you think that this piano was rarely played. The piano contains a cartridge slot that can be used to insert player piano cartridges.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": true,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "You tap one of the keys and jump as a jarringly loud note reverberates through the house.",
+                
+                "flag": []
+            },
+            "play": {
+
+                "text": "You tap one of the keys and jump as a jarringly loud note reverberates through the house.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "The piano almost smells nice, like wood and varnish.",
+                
+                "flag": []
+            },
+            "cartridge": {
+
+                "text": "If you place a player piano cartridge in this slot, the piano will play the song.",
+                
+                "flag": []
+            }          
+        }
+        
+    ]
+
+}

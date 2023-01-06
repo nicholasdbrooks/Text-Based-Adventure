@@ -1,0 +1,44 @@
+{
+    "name": "book",
+
+    "room_description": false,
+
+    "starting_loc": "library",
+
+    "current_loc": "library",
+
+    "look_description": "You take out the suspicious book and turn it over. The Pale Horse. The book's binding is starting to come apart; clearly this book has been well loved. As you open up the book to thumb through its pages, a note flutters gently to the floor.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The book is made of soft leather. It feels luxurious under your fingers, but the spine is bent out of shape.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like leather, paper, and a hint of... perfume?",
+                
+                "flag": []
+            },
+            "read": {
+
+                "text": "As you open up the book to thumb through its pages, a letter flutters gently to the floor.",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

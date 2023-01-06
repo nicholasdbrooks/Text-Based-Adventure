@@ -1,0 +1,17 @@
+{
+    "name": "attic",
+
+    "long_desc": "You poke your head up into the dusty attic. There are a few lonely boxes in the attic, and you are trying really hard not to look at what appears to be a mannequin in the corner. Seriously, why is there a mannequin in the corner? Let's just ignore that. Dr. Peters says to face your fears, but you would like to see her keep her cool in this situation. The mannequin does have a cool hat on though. Ahh, we need to ignore that. The only way out is back down through the trap door that you came in through. Let's keep that in mind in case this mannequin comes to life.",
+    
+    "short_desc": "You poke your head back into the attic. Boxes lay on the floor, and you still try not to look at the mannequin. Wait, was the mannequin always facing that way? Oh god. The trapdoor leads down to the hallway.",
+
+    "init_items" : ["boxes", "piano cartridge", "mannequin"],
+
+    "current_items" : ["boxes", "piano cartridge", "mannequin"],
+
+    "exits" : [
+      {
+        "down": ["hallway"]
+      }
+    ]
+}

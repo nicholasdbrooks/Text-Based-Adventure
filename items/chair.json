@@ -1,0 +1,45 @@
+{
+    "name": "chair",
+
+    "room_description": false,
+
+    "starting_loc": "office",
+
+    "current_loc": "office",
+
+    "look_description": "There is a large and comfortable looking chair in this room. You briefly consider taking a quick nap, but remember that this is no time for sleeping!",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The chair is soft and comfortable.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like old, mildewy fabric.",
+                
+                "flag": []
+            },
+            "sit": {
+
+                "text": "You sit in the chair and relax for a moment. You could be pursuaded to fall asleep here if the circumstances weren't so creepy...",
+                
+                "flag": []
+            }          
+        }
+    ]
+
+}

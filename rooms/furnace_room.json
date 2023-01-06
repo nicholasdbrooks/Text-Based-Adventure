@@ -1,0 +1,17 @@
+{
+    "name": "furnace room",
+    
+    "long_desc": "Cough, cough, jeez. Black smoke billows from the furnace in the room. Should the furnace be on with no one tending to it? That seems to be pretty dangerous. You think about it for a minute, then come to the conclusion that it is not your problem. Dr. Peters would be proud of you for standing up for yourself, but less proud about you slowly suffering from smoke inhalation. Oh well, you think. You'll take what you can get. Next to the furnace is a lone fire poker. You stop and wonder what happened to the other fire tools, but once again decide that this is not your problem. The east exit will take you back to the storage room.",
+    
+    "short_desc": "Cough, cough. You think to yourself that someone really should do something about this furnace. Won't be you though. You see the furnace here. To your east is the storage room.",
+    
+    "init_items" : ["fire poker", "furnace"],
+
+    "current_items" : ["fire poker", "furnace"],
+
+    "exits" : [
+      {
+        "east" : ["storage room"]
+      }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "master bedroom",
+
+    "long_desc": "You enter into a large bedroom. You feel like a bit of a creeper going through someone's bedroom; then again, you didn't ask to be stuck in this house, so... The bed sits barren; just an uncovered mattress lies on the bed frame. On the wall is a large, gaudy painting of a piano. Doesn't the owner realize how tacky that looks? And, that's all that's here? This bedroom could definitely use a remodel. Should you do it? Well, Dr. Peters did tell you to try and take the initiative more... but, you once again decide that this is probably not what she was talking about. Maybe later. To the north is a door leading to a bathroom, and the door leading to the hallway is to your east.",
+    
+    "short_desc": "You enter the master bedroom. The piano painting is as gaudy as ever; the bed as uncovered as ever. You don't understand why anyone would want to spend time here. Thankfully, there is a door to the north leading to the bathroom, and a door east leading to the hallway so you can make a quick getaway.",
+
+    "init_items" : ["bed", "painting", "safe", "keyring"],
+
+    "current_items" : ["bed", "painting", "safe", "keyring"],
+
+    "exits" : [
+      {
+        "north": ["bathroom"],
+        "east": ["hallway"]
+      }
+    ]
+}

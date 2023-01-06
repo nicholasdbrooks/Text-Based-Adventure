@@ -1,0 +1,56 @@
+{
+    "name": "lock",
+
+    "room_description": false,
+
+    "starting_loc": "backyard",
+
+    "current_loc": "backyard",
+
+    "look_description": "This is a large and sturdy padlock. If you want to enter the toolshed, you definitely won't be able to break this lock. You'll have to find a key for sure.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {   "touch": {
+
+            "text": "The lock is rusty and covered in grime. Your fingers feel dirty after touching it.",
+            
+            "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like metal and dirt.",
+                
+                "flag": []
+            },
+            "pick": {
+
+                "text": "You don't know how to do that. Maybe you can find a key somewhere?",
+                
+                "flag": []
+            },
+            "break": {
+
+                "text": "You don't know how to do that. Maybe you can find a key somewhere?",
+                
+                "flag": []
+            },
+            "force": {
+
+                "text": "You don't know how to do that. Maybe you can find a key somewhere?",
+                
+                "flag": []
+            }
+        }
+    ]
+
+}

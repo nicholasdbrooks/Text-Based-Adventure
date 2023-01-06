@@ -1,0 +1,45 @@
+{
+    "name": "recliner",
+
+    "room_description": false,
+
+    "starting_loc": "library",
+
+    "current_loc": "library",
+
+    "look_description": "Your eyes are immediately drawn to the beautiful specimen in the center of the room. Those cushions, fluffed to absolute perfection. The high quality leather exudes the most inviting scent you've ever had the pleasure of smelling. You try to hold yourself back, but you just can't; you must sit in this chair. As you sit in the chair, you feel at peace; this chair was just made for you. The only thing taking you out of chair nirvana is something poking your thigh. You reach down and rummage in the cushions before finding the cause: a silver nickel.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "related_items": [],
+
+    "verbs": [
+        {
+            "touch": {
+
+                "text": "The is a magnificent chair. Truly a work of art. The perfect amount of give. The fabric is remarkable. You run your fingers across it happily.",
+                
+                "flag": []
+            },
+            "smell": {
+
+                "text": "Smells like damp fabric.",
+                
+                "flag": []
+            },
+            "sit": {
+
+                "text": "As you relax into the comfortable chair, you notice a strange-looking nickel wedged in between the cushions.",
+                
+                "flag": []
+            }          
+        }
+    ]
+
+}
